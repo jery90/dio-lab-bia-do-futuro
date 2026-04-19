@@ -16,6 +16,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 ## Adaptações nos Dados
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
+> Sim, troquei os fundos multi mercado pelos fundos imobiliário pois estou mais familiarizado pelo produto.
 
 [Sua descrição aqui]
 
