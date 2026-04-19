@@ -102,6 +102,7 @@ Qual divida cobre o juros maior pra ser paga primeiro]
 **Agente:**
 ```
 [ex: Para fazer uma recomendação adequada, preciso entender melhor seu perfil. Você já preencheu seu questionário de perfil de investidor?]
+Eduque o cliente sobre os investimentos solicitados
 ```
 
 ---
@@ -110,5 +111,5 @@ Qual divida cobre o juros maior pra ser paga primeiro]
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- Uso de few sho prompting (https://www.promptingguide.ai/pt/techniques/fewshot) (https://www.ibm.com/br-pt/think/topics/few-shot-prompting)
+- Registrei padrões deferente de respostas no uso de deiferentes LLMs (Copilot, Chat gpt) mas nenhum se perdeu na "Edge case" 
