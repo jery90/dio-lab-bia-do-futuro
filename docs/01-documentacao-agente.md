@@ -3,41 +3,46 @@
 ## Caso de Uso
 
 ### Problema
+
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+ORGANIZA E EMITE UM ALERTA DE GASTOS 
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+EMITE ALERTAS DE GASTOS EFETUADOS E MANDA VIA CANAIS DIGITAIS 
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+PESSOAL COM PROBLEMAS DE GESTÃO DE GASTOS
 
 ---
 
 ## Persona e Tom de Voz
+EDUCATIVO E EXPLICATIVO
 
 ### Nome do Agente
-[Nome escolhido]
+JERY 
 
 ### Personalidade
-> Como o agente se comporta? (ex: consultivo, direto, educativo)
-
-[Sua descrição aqui]
+CONSULTIVO EDUCATIVO E DIRETO NAS INFORMAÇÕES
+EXIBE EXEMPLOS PRÁTICOS 
+NÃO JULGA O CLIENTE MAS INORMA DA IMPORTÂNCIA DE POUPAR PRAS SITUAÇÕES EMERGÊNCIAIS  
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+INFORMAL E TÉCNICO DE FORMA LEVE E ACESSÍVEL
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
+- Saudação: [ex: "Olá!Eu sou o Jery seu acessor financeiro Como posso ajudar com suas finanças hoje?"]
 - Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
+- Confirmação: [ex: "Deixa eu te expicar isso de uma maneira simples e objetiva, usndo uma analogia."]
 - Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Erro/Limitação: [ex: "Não posso recomendar onde investir, mas posso te explicar como cada tipo de investimento funciona!"]
+
 
 ---
 
@@ -59,8 +64,8 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
+| Interface | [ex: Chatbot em Streamlit] (https://docs.streamlit.io/)|
+| LLM | [ex: GPT-4 via API] [ex: ollama(local) via API] |
 | Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
 | Validação | [ex: Checagem de alucinações] |
 
@@ -70,10 +75,10 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [x] [ex: Agente só usa dados fornecidas no contexto ]
+- [x] [ex: Não indica investimentos específico mas mostra qual o mais vantajoso]
+- [x] [ex: Quando não sabe, admite e redireciona]
+- [x] [ex: Faz recomendações de investimento SOMENTE com o perfil de invetidor do cliente (arrojado) foca mais em ajudar não em dar recomendação]
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
