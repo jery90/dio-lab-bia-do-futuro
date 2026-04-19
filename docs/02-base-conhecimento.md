@@ -44,6 +44,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
+> Vão estar disponiveis nos arquivos (historico_atendimento; perfil_investidor; produtos_financeiros; transacoes.csv)
 
 
 
