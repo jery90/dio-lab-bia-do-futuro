@@ -31,7 +31,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 > import json
 > 
 > # CSVs
-> historico = pd.read_csv('data/hidtorico_atendimento.csv')
+> historico = pd.read_csv('data/hitorico_atendimento.csv')
 > transacoes = pd.read_csv('data/transacoes.csv')
 >
 > # JSON
