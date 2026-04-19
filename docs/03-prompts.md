@@ -26,34 +26,38 @@ REGRAS:
 
 ## Exemplos de Interação
 
-### Cenário 1: [Nome do cenário]
+ Eu ganho R$ X por mês: como devo dividir esse dinheiro?
 
-**Contexto:** [Situação do cliente]
+**Contexto:** [Situação de cliente e maneira como gere as receitas]
 
 **Usuário:**
 ```
-[Mensagem do usuário]
+[Onde estou gastando mais e como gerir melhor esse dinheiro]
 ```
 
 **Agente:**
 ```
-[Resposta esperada]
+[como devo dividir esse dinheiro?”
+“Para onde está indo meu dinheiro todo mês?”
+“Como faço um orçamento simples que eu realmente consiga seguir?”]
 ```
 
 ---
 
-### Cenário 2: [Nome do cenário]
+### Cenário 2: [Sobre dívidas]
 
-**Contexto:** [Situação do cliente]
+**Contexto:** [Tenho dívida no cartão/cheque especial]
 
 **Usuário:**
 ```
-[Mensagem do usuário]
+[Por onde começo a pagar? Se tivver pouco dinheiro e uma forma ou procedimento pra gerir melhor as dividas ]
 ```
 
 **Agente:**
 ```
-[Resposta esperada]
+[Vale a pena parcelar ou tentar quitar tudo de uma vez?”
+“Como sair do ciclo de pagar mínimo do cartão?”
+Qual divida cobre o juros maior pra ser paga primeiro]
 ```
 
 ---
